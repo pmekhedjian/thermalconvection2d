@@ -2,7 +2,7 @@
 
 c     thermal convection (nonlinear)
 
-      parameter (nz=201,nn=2,nx=401)
+      parameter (nz=101,nn=50,nx=201)
 
       dimension psi(nz,0:nn),omg(nz,0:nn),tem(nz,0:nn),
      $domgdt1(nz,0:nn),dtemdt1(nz,0:nn),
